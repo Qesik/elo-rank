@@ -36,7 +36,7 @@ enum struct ClientInfo {
 	void ResetVars()
 	{
 		this.LoadData = false;
-		this.EloPoints = g_cPointsForKill.IntValue;
+		this.EloPoints = 1000;
 		this.FaceitLevel = 3;
 	}
 }
